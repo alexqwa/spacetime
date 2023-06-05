@@ -1,14 +1,14 @@
 export function Copyright() {
   return (
     <div className="text-sm leading-relaxed text-gray-200">
-      Feito com 💜 no NLW da{" "}
+      Feito com 💜 por{" "}
       <a
         target="_blank"
         rel="noreferrer"
         className="underline transition-all hover:text-gray-100"
-        href="https://rocketseat.com.br/"
+        href="https://github.com/alexqwa"
       >
-        Rocketseat
+        Alexandre
       </a>
     </div>
   );
