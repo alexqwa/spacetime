@@ -1,22 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./App.{js,jsx,ts,tsx}", "./app/**/*.tsx"],
   theme: {
     extend: {
       fontFamily: {
-        sans: "var(--font-roboto)",
-        alt: "var(--font-bai-jamjuree)",
-      },
-      backgroundImage: {
-        stripes:
-          "linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)",
-      },
-      backgroundSize: {
-        stripes: "100% 8px",
+        title: "Roboto_700Bold",
+        body: "Roboto_400Regular",
+        alt: "BaiJamjuree_700Bold",
       },
       colors: {
         gray: {
@@ -56,13 +46,7 @@ module.exports = {
           900: "#025929",
         },
       },
-      fontSize: {
-        "5xl": "2.5rem",
-      },
-      blur: {
-        full: "194px",
-      },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [],
 };

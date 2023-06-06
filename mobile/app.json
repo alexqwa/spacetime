@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "nlwspacetime",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "mobile",
+    "slug": "mobile"
+  }
+}
